@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraStyle AI - Solution Proposal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>AuraStyle AI: Your Computer Vision Fashion Assistant</h1>
+    </header>
+
+    <main>
+        <section id="problem">
+            <h2>Problem Description</h2>
+            <p><strong>The Problem:</strong> Online shopping has a massive inefficiency problem: high return rates and customer frustration. Shoppers frequently struggle to know how an item will fit their specific body type or how it will pair with their existing wardrobe. This leads to wasted money, time, and a significant environmental impact from return shipping and packaging waste.</p>
+            <p><strong>Who it affects:</strong> Everyday consumers looking to elevate their personal style, and e-commerce clothing brands losing revenue to returns.</p>
+        </section>
+
+        <section id="solution">
+            <h2>Propose an AI Solution</h2>
+            <p><strong>What the AI system does:</strong> AuraStyle AI is a personal styling assistant that uses computer vision to analyze a user's uploaded photos, body proportions, and existing closet inventory to recommend outfits that flatter them and fit perfectly.</p>
+            <p><strong>How it works:</strong> Users upload a full-body photo and images of clothes they own. The AI uses image recognition (Computer Vision) to analyze the cut, color, and fit of the clothing. It then matches these data points against the user's proportions and personal style preferences to generate realistic outfit visualizations and smart shopping recommendations.</p>
+            <p><strong>Who will use it:</strong> Shoppers who want to save time and build a cohesive wardrobe, as well as online retailers who can integrate the tool as a virtual fitting room to boost buyer confidence.</p>
+        </section>
+
+        <section id="implementation">
+            <h2>Implementation Strategy</h2>
+            <ul>
+                <li><strong>Tools:</strong> The website front-end would be built using HTML, CSS, and JavaScript. The AI back-end would utilize Python and Computer Vision APIs (like TensorFlow or PyTorch) to process the images.</li>
+                <li><strong>Data needed:</strong> The AI needs a massive dataset of diverse clothing items, fabrics, and human body shapes to train the computer vision model. It also needs the user's specific uploaded photos to analyze.</li>
+                <li><strong>Step-by-step workflow:</strong>
+                    <ol>
+                        <li>User creates a profile and uploads a full-body photo.</li>
+                        <li>User uploads photos of clothes they own or selects items from an online store.</li>
+                        <li>The computer vision model maps the user's body shape and analyzes the clothing dimensions.</li>
+                        <li>The AI outputs a 3D visualization of the user wearing the outfit and provides a fit score.</li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+        <section id="impact">
+            <h2>Expected Impact</h2>
+            <ul>
+                <li><strong>Benefits to users/businesses:</strong> Users gain a stress-free shopping experience and a more sustainable wardrobe. E-commerce businesses see a drastic reduction in return logistics and increased customer loyalty.</li>
+                <li><strong>Time or cost savings:</strong> Saves consumers money on items they would eventually throw away or forget to return. Saves retailers millions of dollars in return shipping fees and damaged inventory.</li>
+                <li><strong>Why it is better:</strong> Current methods rely on static sizing charts, which are often inaccurate across different brands, or hiring expensive human personal stylists. AuraStyle AI is instant, personalized, and visually accurate.</li>
+            </ul>
+        </section>
+
+        <section id="ethics">
+            <h2>Ethical Considerations & Challenges</h2>
+            <ul>
+                <li><strong>Privacy concerns:</strong> The system requires users to upload full-body photos, which is highly sensitive biometric data. Strict encryption and data deletion policies must be enforced so photos are not misused or stolen.</li>
+                <li><strong>Bias in AI:</strong> If the AI is only trained on a narrow range of body types or skin tones, it will perform poorly for diverse users, leading to an exclusionary and frustrating experience. The training data must be highly inclusive.</li>
+                <li><strong>Challenges:</strong> Processing high-resolution images in real-time takes a lot of computing power, which could make the app slow or expensive to host.</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
