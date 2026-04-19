@@ -16,12 +16,18 @@
         <section id="problem">
             <h2>Problem Description</h2>
             <p><strong>The Problem:</strong> Online shopping has a massive inefficiency problem: high return rates and customer frustration. Shoppers frequently struggle to know how an item will fit their specific body type or how it will pair with their existing wardrobe. This leads to wasted money, time, and a significant environmental impact from return shipping and packaging waste.</p>
+            
+            <img src="images/closet.jpeg" alt="Frustrating messy closet" style="max-width: 100%; border-radius: 8px; margin-top: 15px;">
+            
             <p><strong>Who it affects:</strong> Everyday consumers looking to elevate their personal style, and e-commerce clothing brands losing revenue to returns.</p>
         </section>
 
         <section id="solution">
             <h2>Propose an AI Solution</h2>
             <p><strong>What the AI system does:</strong> AuraStyle AI is a personal styling assistant that uses computer vision to analyze a user's uploaded photos, body proportions, and existing closet inventory to recommend outfits that flatter them and fit perfectly.</p>
+            
+            <img src="images/app.jpeg" alt="AuraStyle App Interface" style="max-width: 100%; border-radius: 8px; margin-top: 15px;">
+            
             <p><strong>How it works:</strong> Users upload a full-body photo and images of clothes they own. The AI uses image recognition (Computer Vision) to analyze the cut, color, and fit of the clothing. It then matches these data points against the user's proportions and personal style preferences to generate realistic outfit visualizations and smart shopping recommendations.</p>
             <p><strong>Who will use it:</strong> Shoppers who want to save time and build a cohesive wardrobe, as well as online retailers who can integrate the tool as a virtual fitting room to boost buyer confidence.</p>
         </section>
@@ -31,6 +37,11 @@
             <ul>
                 <li><strong>Tools:</strong> The website front-end would be built using HTML, CSS, and JavaScript. The AI back-end would utilize Python and Computer Vision APIs (like TensorFlow or PyTorch) to process the images.</li>
                 <li><strong>Data needed:</strong> The AI needs a massive dataset of diverse clothing items, fabrics, and human body shapes to train the computer vision model. It also needs the user's specific uploaded photos to analyze.</li>
+            </ul>
+            
+            <img src="images/aiG.jpeg" alt="Computer Vision Tech" style="max-width: 100%; border-radius: 8px; margin-top: 15px; margin-bottom: 15px;">
+            
+            <ul>
                 <li><strong>Step-by-step workflow:</strong>
                     <ol>
                         <li>User creates a profile and uploads a full-body photo.</li>
